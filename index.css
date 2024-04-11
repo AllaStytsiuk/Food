@@ -59,7 +59,7 @@ body #banner h2,
 button {
   color: white;
   margin-left: 100px;
-  margin-top: -60px;
+  margin-top: 60px;
 }
 
 body #banner h2 {
@@ -152,7 +152,7 @@ body #team .haupt-team {
     }*/
 body #team .haupt-team .team1 {
   width: 250px;
-  height: 580px;
+  height: 700px;
   background-color: white;
   border: 1px solid black;
 }
@@ -171,7 +171,7 @@ body #team .haupt-team .team1 .box {
 
 body #team .haupt-team .team2 {
   width: 350px;
-  height: 600px;
+  height: 650px;
   border: 1px solid black;
   background-color: white;
 }
@@ -190,7 +190,7 @@ body #team .haupt-team .team2 .box {
 
 body #team .haupt-team .team3 {
   width: 301px;
-  height: 450px;
+  height: 550px;
   border: 1px solid black;
   background-color: white;
 }
@@ -209,7 +209,7 @@ body #team .haupt-team .team3 .box {
 
 body #team .haupt-team .team4 {
   width: 202px;
-  height: 450px;
+  height: 550px;
   border: 1px solid black;
   background-color: white;
 }
@@ -253,7 +253,7 @@ body #dessert .haupt-team {
       }*/
 body #dessert .haupt-team .team1 {
   width: 250px;
-  height: 450px;
+  height: 550px;
   background-color: white;
   border: 1px solid black;
 }
@@ -272,7 +272,7 @@ body #dessert .haupt-team .team1 .box {
 
 body #dessert .haupt-team .team2 {
   width: 350px;
-  height: 750px;
+  height: 800px;
   border: 1px solid black;
   background-color: white;
 }
@@ -291,7 +291,7 @@ body #dessert .haupt-team .team2 .box {
 
 body #dessert .haupt-team .team3 {
   width: 301px;
-  height: 550px;
+  height: 650px;
   border: 1px solid black;
   background-color: white;
 }
@@ -310,7 +310,7 @@ body #dessert .haupt-team .team3 .box {
 
 body #dessert .haupt-team .team4 {
   width: 202px;
-  height: 600px;
+  height: 700px;
   border: 1px solid black;
   background-color: white;
 }
@@ -329,7 +329,8 @@ body #dessert .haupt-team .team4 .box {
 .box {
   border: 1px solid violet;
   color: violet;
-  width: 100px;
+  width: 150px;
+  height: 30px;
 }
 
 .style-recept .style-recept2 {
@@ -393,15 +394,16 @@ body footer {
   margin-top: 40px;
 }
 #carouselExampleInterval {
-    width: 500px;
-    height: 500px;
-
+  width: 1000px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .carousel-item {
-    height: 500px;
-
+  height: 500px;
 }
 .carousel-item img {
-    height: 100%;
-    object-fit: cover;
+  height: 100%;
+  object-fit: cover;
 }
